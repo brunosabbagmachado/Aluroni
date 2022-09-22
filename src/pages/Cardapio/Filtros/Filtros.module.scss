@@ -5,6 +5,7 @@
   gap: 24px;
   flex-wrap: wrap;
   margin: 20px 0;
+
   &__filtro {
     align-items: center;
     background-color: $grey;
@@ -16,10 +17,12 @@
     height: 40px;
     justify-content: center;
     width: 150px;
+
     &--ativo {
       background-color: $blue;
       color: white;
     }
+
     &:hover {
       cursor: pointer;
     }
