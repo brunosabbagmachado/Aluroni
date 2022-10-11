@@ -18,7 +18,7 @@ export default function Prato() {
 
   return (
     <Routes>
-      <Route path='*' element={<PaginaPadrao />}>
+      <Route path='/Aluroni/prato/*' element={<PaginaPadrao />}>
         <Route index element={
           <>
             <button className={styles.voltar} onClick={() => navigate(-1)}>

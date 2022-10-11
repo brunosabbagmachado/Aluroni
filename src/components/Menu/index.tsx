@@ -6,13 +6,13 @@ export default function Menu() {
 
   const rotas = [{
     label: 'Início',
-    to: '/'
+    to: '/Aluroni/'
   }, {
     label: 'Cardápio',
-    to: '/cardapio'
+    to: '/Aluroni/cardapio'
   }, {
     label: 'Sobre',
-    to: '/sobre'
+    to: '/Aluroni/sobre'
   }];
 
   return (
