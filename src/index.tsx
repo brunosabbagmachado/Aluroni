@@ -1,17 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import 'normalize.css';
 import 'index.css';
 import Router from './routes';
-import Menu from 'components/Menu';
-import Header from 'components/Header';
 
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
-ReactDOM.render(
+root.render(
   <React.StrictMode>
-    <Menu />
-    <Header />
     <Router />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
