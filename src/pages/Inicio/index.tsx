@@ -12,7 +12,7 @@ export default function Inicio() {
   const navigate = useNavigate();
 
   function redirecionarParaDetalhes(prato: Prato) {
-    navigate(`/prato/${prato.id}`, { state: { prato }, replace: true });
+    navigate(`/Aluroni/prato/${prato.id}`, { state: { prato }, replace: true });
   }
 
   return (

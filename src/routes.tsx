@@ -20,7 +20,7 @@ export default function AppRouter() {
             <Route path='/Aluroni/sobre' element={<Sobre />} />
           </Route>
           <Route path='/Aluroni/prato/:id' element={<Prato />} />
-          <Route path='/Aluroni/*' element={<NotFound />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>

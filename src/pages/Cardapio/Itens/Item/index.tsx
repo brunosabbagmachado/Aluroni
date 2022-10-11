@@ -10,7 +10,7 @@ export default function Item(props: Prato) {
   const navigate = useNavigate();
 
   return (
-    <div className={styles.item} onClick={() => navigate(`/prato/${id}`)}>
+    <div className={styles.item} onClick={() => navigate(`/Aluroni/prato/${id}`)}>
       <div className={styles.item__imagem}>
         <img src={photo} alt={title} />
       </div>
